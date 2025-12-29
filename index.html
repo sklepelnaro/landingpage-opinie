@@ -522,7 +522,7 @@
        ★★★★★
       </div>
       <div class="rating-count">
-       1,801 opinii
+       2008 opinii
       </div>
      </div>
     </div>
@@ -548,9 +548,6 @@
         <div class="review-text">
          "100% pozytyw. Błyskawiczna dostawa. Towar zgodny z opisem"
         </div>
-       </div>
-       <div class="loading-indicator">
-        Ładowanie kolejnych opinii...
        </div>
       </div>
       <div class="cta-container">
@@ -614,9 +611,6 @@
          "Duży wybór narzędzi, różne marki, wybrałam super prezent dla chłopaka majsterkowicza. Wysyłka ekspres. Pewnie wrócę na kolejne zakupy!"
         </div>
        </div>
-       <div class="loading-indicator">
-        Ładowanie kolejnych opinii...
-       </div>
       </div>
       <div class="cta-container">
        <div class="cta-text-section">
@@ -678,10 +672,7 @@
         <div class="review-text">
          "Zakup przebiegł bez problemu.Szybka wysyłka.Polecam zakupy u sprzedającego.Dziękuję."
         </div>
-       </div>
-       <div class="loading-indicator">
-        Ładowanie kolejnych opinii...
-       </div>
+       </div>     
       </div>
       <div class="cta-container">
        <div class="cta-text-section">
@@ -743,10 +734,7 @@
         <div class="review-text">
          "Produkt porządnie zabezpieczony i zapakowany. Polecam!"
         </div>
-       </div>
-       <div class="loading-indicator">
-        Ładowanie kolejnych opinii...
-       </div>
+       </div>    
       </div>
       <div class="cta-container">
        <div class="cta-text-section">
@@ -808,10 +796,7 @@
         <div class="review-text">
          "Bardzo dobry sklep polecam"
         </div>
-       </div>
-       <div class="loading-indicator">
-        Ładowanie kolejnych opinii...
-       </div>
+       </div>   
       </div>
       <div class="cta-container">
        <div class="cta-text-section">
@@ -922,116 +907,5 @@
             });
         }
 
-        // Dane do nieskończonego przewijania
-        const additionalReviews = {
-            allegro: [
-                { author: "Łukasz D.", date: "1 tydzień temu", stars: "★★★★★", text: "Piła tarczowa Makita przyszła w oryginalnym opakowaniu. Szybka wysyłka, dobra cena. Polecam sklep Elnaro!" },
-                { author: "Agnieszka W.", date: "2 tygodnie temu", stars: "★★★★★", text: "Zamówiłam zestaw kluczy dla męża mechanika. Jakość Gedore, cena lepsza niż w innych sklepach. Bardzo zadowolona!" },
-                { author: "Marcin T.", date: "3 tygodnie temu", stars: "★★★★★", text: "Młot wyburzeniowy Hilti - oryginał w super cenie. Elnaro to sklep, któremu można zaufać. Polecam każdemu!" },
-                { author: "Beata S.", date: "1 miesiąc temu", stars: "★★★★☆", text: "Dobry wybór elektronarzędzi. Ceny konkurencyjne, obsługa profesjonalna. Jedyny minus to brak niektórych akcesoriów." }
-            ],
-            opineo: [
-                { author: "Stanisław G.", date: "1 tydzień temu", stars: "★★★★★", text: "Zamówiłem komplet narzędzi Stanley. Wszystko zgodne z opisem, szybka realizacja. Elnaro to sklep godny polecenia!" },
-                { author: "Katarzyna M.", date: "2 tygodnie temu", stars: "★★★★★", text: "Profesjonalne doradztwo przy wyborze wiertarki. Otrzymałam dokładnie to, czego potrzebowałam. Obsługa na najwyższym poziomie." },
-                { author: "Grzegorz P.", date: "3 tygodnie temu", stars: "★★★★☆", text: "Dobre ceny, szeroki wybór. Jedyny minus to czas oczekiwania na dostawę, ale jakość produktów rekompensuje wszystko." },
-                { author: "Monika K.", date: "1 miesiąc temu", stars: "★★★★★", text: "Kupuję tutaj narzędzia dla całej ekipy budowlanej. Zawsze oryginalne produkty, konkurencyjne ceny hurtowe." }
-            ],
-            ceneo: [
-                { author: "Rafał K.", date: "1 tydzień temu", stars: "★★★★★", text: "Wiertarka Bosch Professional - oryginał w najlepszej cenie na rynku. Elnaro to mój ulubiony sklep z narzędziami!" },
-                { author: "Jolanta N.", date: "2 tygodnie temu", stars: "★★★★★", text: "Kupowałam narzędzia ogrodnicze Fiskars. Świetna jakość, szybka dostawa. Obsługa bardzo pomocna i kompetentna." },
-                { author: "Dariusz L.", date: "3 tygodnie temu", stars: "★★★★★", text: "Zestaw bitów Wera - jakość niemiecka w dobrej cenie. Elnaro oferuje tylko oryginalne produkty. Polecam!" },
-                { author: "Ewa P.", date: "1 miesiąc temu", stars: "★★★★☆", text: "Szlifierka kątowa DeWalt - solidne narzędzie w dobrej cenie. Dostawa mogłaby być szybsza, ale jakość bez zarzutu." }
-            ],
-            erli: [
-                { author: "Zbigniew M.", date: "1 tydzień temu", stars: "★★★★★", text: "Sklep godny zaufania. Zamówiłem elektronarzędzia Metabo - wszystko oryginalne, szybka realizacja zamówienia." },
-                { author: "Alicja K.", date: "2 tygodnie temu", stars: "★★★★★", text: "Profesjonalne doradztwo przy wyborze narzędzi. Otrzymałam dokładnie to, czego potrzebowałam do remontu." },
-                { author: "Wojciech G.", date: "3 tygodnie temu", stars: "★★★★★", text: "Narzędzia pomiarowe Stabila w najlepszych cenach. Elnaro to sklep dla profesjonalistów. Bardzo polecam!" },
-                { author: "Grażyna T.", date: "1 miesiąc temu", stars: "★★★★☆", text: "Dobry wybór narzędzi ręcznych. Ceny konkurencyjne, obsługa miła. Jedyny minus to ograniczona dostępność niektórych produktów." }
-            ],
-            google: [
-                { author: "Paweł R.", date: "1 tydzień temu", stars: "★★★★★", text: "Najlepszy sklep z narzędziami w okolicy! Fachowa obsługa, oryginalne produkty, konkurencyjne ceny. Polecam wszystkim!" },
-                { author: "Małgorzata D.", date: "2 tygodnie temu", stars: "★★★★★", text: "Kupuję tutaj narzędzia dla firmy budowlanej. Zawsze profesjonalne doradztwo i najlepsze ceny hurtowe." },
-                { author: "Andrzej W.", date: "3 tygodnie temu", stars: "★★★★★", text: "Elektronarzędzia Festool w świetnych cenach. Elnaro to sklep dla wymagających profesjonalistów. Gorąco polecam!" },
-                { author: "Renata L.", date: "1 miesiąc temu", stars: "★★★★☆", text: "Szeroki wybór narzędzi ogrodniczych. Dobra jakość, przystępne ceny. Obsługa bardzo pomocna i kompetentna." }
-            ]
-        };
-
-        // Funkcja nieskończonego przewijania
-        function setupInfiniteScroll() {
-            document.querySelectorAll('.sample-reviews').forEach((reviewsContainer, index) => {
-                const platforms = ['allegro', 'opineo', 'ceneo', 'erli', 'google'];
-                const platform = platforms[index];
-                const loadingIndicator = reviewsContainer.querySelector('.loading-indicator');
-                let currentReviewIndex = 0;
-                let isLoading = false;
-
-                reviewsContainer.addEventListener('scroll', () => {
-                    if (isLoading) return;
-                    
-                    const scrollTop = reviewsContainer.scrollTop;
-                    const scrollHeight = reviewsContainer.scrollHeight;
-                    const clientHeight = reviewsContainer.clientHeight;
-                    
-                    // Sprawdź czy użytkownik przewinął prawie do końca
-                    if (scrollTop + clientHeight >= scrollHeight - 50) {
-                        loadMoreReviews(reviewsContainer, platform, loadingIndicator);
-                    }
-                });
-
-                function loadMoreReviews(container, platformName, indicator) {
-                    if (isLoading) return;
-                    isLoading = true;
-                    
-                    // Pokaż wskaźnik ładowania
-                    indicator.style.display = 'block';
-                    
-                    // Symuluj opóźnienie ładowania
-                    setTimeout(() => {
-                        const reviews = additionalReviews[platformName];
-                        const reviewsToAdd = 2; // Dodaj 2 opinie na raz
-                        
-                        for (let i = 0; i < reviewsToAdd; i++) {
-                            const reviewIndex = currentReviewIndex % reviews.length;
-                            const review = reviews[reviewIndex];
-                            
-                            const reviewElement = document.createElement('div');
-                            reviewElement.className = 'review-item';
-                            reviewElement.style.opacity = '0';
-                            reviewElement.style.transform = 'translateY(20px)';
-                            reviewElement.innerHTML = `
-                                <div class="review-header">
-                                    <span class="review-author">${review.author}</span>
-                                    <span class="review-date">${review.date}</span>
-                                </div>
-                                <div class="review-stars">${review.stars}</div>
-                                <div class="review-text">"${review.text}"</div>
-                            `;
-                            
-                            // Wstaw przed wskaźnikiem ładowania
-                            container.insertBefore(reviewElement, indicator);
-                            
-                            // Animacja pojawiania się
-                            setTimeout(() => {
-                                reviewElement.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-                                reviewElement.style.opacity = '1';
-                                reviewElement.style.transform = 'translateY(0)';
-                            }, i * 100);
-                            
-                            currentReviewIndex++;
-                        }
-                        
-                        // Ukryj wskaźnik ładowania
-                        indicator.style.display = 'none';
-                        isLoading = false;
-                    }, 1000);
-                }
-            });
-        }
-
-        // Uruchomienie nieskończonego przewijania po załadowaniu
-        window.addEventListener('load', () => {
-            setupInfiniteScroll();
-        });
-    </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'999398e325dd8851',t:'MTc2MjI1MzkxNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+       
 </html>
